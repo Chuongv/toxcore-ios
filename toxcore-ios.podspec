@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.license          = 'GPLv3'
   s.author           = { "Dmytro Vorobiov" => "d@dvor.me" }
   s.source           = {
-      :git => "https://github.com/dvor/toxcore-ios.git",
-      :tag => s.version.to_s,
+      :git => "https://github.com/Chuongv/toxcore-ios.git",
+      :tag => "0.1.6-new-av",
       :submodules => true
   }
 
