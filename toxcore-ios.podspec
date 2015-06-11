@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "toxcore-ios"
-  s.version          = "0.1.6"
+  s.version          = "0.1.7"
   s.summary          = "Cocoapods wrapper for toxcore"
   s.homepage         = "https://github.com/dvor/toxcore-ios"
   s.license          = 'GPLv3'
   s.author           = { "Dmytro Vorobiov" => "d@dvor.me" }
   s.source           = {
       :git => "https://github.com/Chuongv/toxcore-ios.git",
-      :tag => "0.1.6-new-av",
+      :tag => "0.1.7-new-av",
       :submodules => true
   }
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.ios.vendored_frameworks = 'VPX.framework'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}"'}
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}"' }
   s.source_files = 'toxcore/toxcore/*.{c,h}', 'toxcore/toxencryptsave/*.{c,h}', 'toxcore/toxav/*.{c,h}' 
   s.public_header_files = 'toxcore/toxcore/*.h', 'toxcore/toxav/*.h'
   s.dependency 'libsodium', '~> 1.0.1'
