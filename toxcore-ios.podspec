@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { "Dmytro Vorobiov" => "d@dvor.me" }
   s.source           = {
       :git => "https://github.com/Chuongv/toxcore-ios.git",
-      :tag => "0.1.6-new-av",
+      :tag => "0.1.8-new-av",
       :submodules => true
   }
 
