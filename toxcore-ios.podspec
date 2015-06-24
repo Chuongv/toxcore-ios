@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "toxcore-ios"
-  s.version          = "0.1.6"
+  s.version          = "0.1.10-new-av"
   s.summary          = "Cocoapods wrapper for toxcore"
   s.homepage         = "https://github.com/dvor/toxcore-ios"
   s.license          = 'GPLv3'
   s.author           = { "Dmytro Vorobiov" => "d@dvor.me" }
   s.source           = {
       :git => "https://github.com/Chuongv/toxcore-ios.git",
-      :tag => "0.1.9-new-av",
+      :tag => "0.1.10-new-av",
       :submodules => true
   }
 
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.source_files = 'toxcore/toxcore/*.{c,h}', 'toxcore/toxencryptsave/*.{c,h}', 'toxcore/toxav/*.{c,h}' 
   s.public_header_files = 'toxcore/toxcore/*.h', 'toxcore/toxav/*.h'
   s.dependency 'libsodium', '~> 1.0.1'
-  s.dependency 'libopus', '~> 1.1'
+  s.dependency 'libopus-patched-config', '~> 1.1'
 end
