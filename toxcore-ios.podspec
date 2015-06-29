@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "toxcore-ios"
-  s.version          = "0.1.10-new-av"
+  s.version          = "0.1.11-new-av"
   s.summary          = "Cocoapods wrapper for toxcore"
   s.homepage         = "https://github.com/dvor/toxcore-ios"
   s.license          = 'GPLv3'
   s.author           = { "Dmytro Vorobiov" => "d@dvor.me" }
   s.source           = {
       :git => "https://github.com/Chuongv/toxcore-ios.git",
-      :tag => "0.1.10-new-av",
+      :tag => "0.1.11-new-av",
       :submodules => true
   }
 

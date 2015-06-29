@@ -1,6 +1,6 @@
 [submodule "toxcore"]
 	path = toxcore
-	url = https://github.com/mannol/toxcore.git
+	url = https://github.com/Chuongv/toxAV.git
 [submodule "libvpx"]
 	path = libvpx
 	url = https://git.chromium.org/webm/libvpx.git
